@@ -6,13 +6,13 @@ class Settings {
         $this->lang = 'en_US.utf8';
 
         // Database information
-        $this->host = 'localhost';
+        $this->host = 'bakpcrihltjmmrdnjueg-mysql.services.clever-cloud.com';
         $this->port = 3306;
 
-        $this->database = 'litebans';
+        $this->database = 'bakpcrihltjmmrdnjueg';
 
-        $this->username = '';
-        $this->password = '';
+        $this->username = 'uny1ahjy6jga4muq';
+        $this->password = '7LqURUDJntaFPuDHzujN';
 
         // If you set a table prefix in config.yml, set it here as well
         $this->table_prefix = "litebans_";
