@@ -21,11 +21,11 @@ class Settings {
         $this->driver = 'mysql';
 
         // Server name, shown on the main page and on the header
-        $this->name = 'LiteBans';
+        $this->name = 'KoolKidz | Staff';
 
         // Clicking on the header name will send you to this address.
         // $this->name_link = 'https://example.com';
-        $this->name_link = 'index.php';
+        $this->name_link = '../index.php';
 
         // Show server scope column?
         $this->show_server_scope = false;
@@ -37,7 +37,7 @@ class Settings {
         $this->info_show_server_scope = false;
 
         // Show server origin column in info.php?
-        $this->info_show_server_origin = true;
+        $this->info_show_server_origin = false;
 
         // Show inactive bans? Removed bans will show (Unbanned), mutes will show (Unmuted), warnings will show (Expired).
         $this->show_inactive_bans = true;
@@ -52,15 +52,15 @@ class Settings {
         // The date format can be changed here.
         // https://unicode-org.github.io/icu/userguide/format_parse/datetime/#date-field-symbol-table
         // Example output of default format: July 2, 2015, 09:19
-        $this->date_format = 'MMMM d, yyyy, HH:mm';
+        $this->date_format = 'd MMMM, yyyy, HH:mm';
 
         // Amount of bans/mutes/warnings to show on each page
-        $this->limit_per_page = 10;
+        $this->limit_per_page = 25;
 
         // The server console will be identified by any of these names.
         // It will be given a standard name and avatar image.
         $this->console_aliases = array(
-            "CONSOLE", "Console",
+            "Console", "Console",
         );
         $this->console_name = "Console";
         $this->console_image = "inc/img/console.png";
@@ -77,7 +77,7 @@ class Settings {
         $this->avatar_source_offline_mode = 'https://minotar.net/avatar/{name}/25';
 
         // If enabled, names will be shown below avatars instead of being shown next to them.
-        $this->avatar_names_below = true;
+        $this->avatar_names_below = false;
 
         // Enable simple URLs?
         // This will convert URLs like "example.com/punishments/bans.php" to "example.com/punishments/bans/"
