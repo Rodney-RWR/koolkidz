@@ -25,7 +25,7 @@ $page->print_title();
             <h2><?php echo str_replace("{server}", $page->settings->name, $page->t("index.welcome.main")); ?></h2>
         </div>
 
-        <div class="litebans-index litebans-index-sub"><p><button onclick="window.location.href='/bans'" style="background-color: green;>Bans</button></p></div>
+        <div class="litebans-index litebans-index-sub"><p><button onclick="window.location.href='/bans'" style="background-color: green;">Bans</button></p></div>
     </div>
 </div>
 <?php $page->print_footer(true); ?>
