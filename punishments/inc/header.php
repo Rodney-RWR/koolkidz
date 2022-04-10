@@ -119,7 +119,7 @@ if ($page->settings->header_show_totals) {
                 ?>
                 <ul class="nav navbar-nav my-2 my-lg-0">
                     <a href="https://www.spigotmc.org/resources/litebans.3715/"
-                       target="_blank">&copy; LiteBans</a>
+                       target="_blank">                    &copy; KoolKidz Dev Team</a>
                 </ul>
             </div>
         </div>
