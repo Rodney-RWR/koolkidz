@@ -1,4 +1,4 @@
 AuthType Basic  
 AuthName "Staff Login"
-AuthUserFile /pass/.htpasswd
+AuthUserFile /.htpasswd
 require valid-user
