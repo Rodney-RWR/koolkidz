@@ -28,4 +28,4 @@ $page->print_title();
         <div class="litebans-index litebans-index-sub"><p><?php echo $page->t("index.welcome.sub"); ?></p></div>
     </div>
 </div>
-<?php $page->print_footer(false); ?>
+<?php $page->print_footer(true); ?>
