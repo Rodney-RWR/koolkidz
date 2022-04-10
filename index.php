@@ -129,7 +129,7 @@ span.psw {
 
 <h2>In Development</h2>
 
-<button href="/punishments/" style="width:auto;">View Punishments</button>
+<button onclick="window.location.href='/punishments'" style="width:auto;">View Punishments</button>
 
 <div id="id01" class="modal">
   
