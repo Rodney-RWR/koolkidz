@@ -6,8 +6,8 @@ class en_US {
         $array = array();
         $this->array = &$array;
 
-        $array["index.welcome.main"] = "Welcome to {server}'s Ban List.";
-        $array["index.welcome.sub"] = "Here is where all of our punishments are listed.";
+        $array["index.welcome.main"] = "";
+        $array["index.welcome.sub"] = "";
 
         $array["title.index"] = 'Home';
         $array["title.bans"] = 'Bans';
