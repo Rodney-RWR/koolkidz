@@ -1,4 +1,5 @@
-<?php class htpasswd {
+<?php
+class htpasswd {
     var $fp;
     var $filename;
  
@@ -62,4 +63,4 @@
         return false;
     }
 }
-?/>
+?>
