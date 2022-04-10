@@ -1,4 +1,4 @@
 AuthType Basic  
 AuthName "restricted access"
-AuthUserFile /.htpasswd
+AuthUserFile /punishments/.htpasswd
 require valid-user
