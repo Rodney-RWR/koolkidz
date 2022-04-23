@@ -1,10 +1,6 @@
-#StaffLogin{
-    AuthType Basic  
-    AuthName "Staff Login"
-    AuthUserFile /home/bas/app_e95c124a-a743-482d-8537-e2d2ee927048/.htpasswd
-    require valid-user
-#}
+AuthType Basic  
+AuthName "Staff Login"
+AuthUserFile /home/bas/app_e95c124a-a743-482d-8537-e2d2ee927048/.htpasswd
+require valid-user
 
-#ErrorPages{
-    ErrorDocument 404 /errors/404/
-#}
+ErrorDocument 404 /errors/404/
