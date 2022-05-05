@@ -138,6 +138,7 @@ echo "<h1> Welcome "  . $username . "</h1>;
 <button onclick="window.location.href='/punishments'" style="width:auto;">View Punishments</button>
 <button onclick="document.getElementById('id01').style.display='block'">Account Details</button>
 
+
 <div id="id01" class="modal">
   
   <form class="modal-content animate" action="/action_page.php" method="post">
@@ -148,18 +149,10 @@ echo "<h1> Welcome "  . $username . "</h1>;
 
     <div class="container">
       <label for="uname"><b>Username</b></label>
-        <?php
-         $username = $_SERVER['PHP_AUTH_USER'];
-         $password = $_SERVER['PHP_AUTH_PW'];
-         echo $username;
-        ?>
+        <?= $username;?>
 
       <label for="psw"><b>Password</b></label>
-              <?php
-                $username = $_SERVER['PHP_AUTH_USER'];
-                $password = $_SERVER['PHP_AUTH_PW'];
-                echo $password;
-              ?>
+        <?= $password;?>
     </div>
 
     <div class="container" style="background-color:#f1f1f1">
