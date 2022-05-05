@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <title> KoolKidz | Staff </title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 body {font-family: Arial, Helvetica, sans-serif;}
@@ -131,10 +132,11 @@ span.psw {
 $username = $_SERVER['PHP_AUTH_USER'];
 $password = $_SERVER['PHP_AUTH_PW'];
 
-echo "Welcome "  . $username;
+echo "<h1> Welcome "  . $username . "</h1>;
 ?>
 
 <button onclick="window.location.href='/punishments'" style="width:auto;">View Punishments</button>
+<button onclick="document.getElementById('id01').style.display='block'">Account Details</button>
 
 <div id="id01" class="modal">
   
@@ -146,20 +148,18 @@ echo "Welcome "  . $username;
 
     <div class="container">
       <label for="uname"><b>Username</b></label>
-      <input type="text" placeholder="Enter Username" name="uname" required>
+        <?php
+         echo $username;
+        ?>
 
       <label for="psw"><b>Password</b></label>
-      <input type="password" placeholder="Enter Password" name="psw" required>
-        
-      <button type="submit">Login</button>
-      <label>
-        <input type="checkbox" checked="checked" name="remember"> Remember me
-      </label>
+              <?php
+         echo $username;
+        ?>
     </div>
 
     <div class="container" style="background-color:#f1f1f1">
-      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
-      <span class="psw">Forgot <a href="#">password?</a></span>
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Close</button>
     </div>
   </form>
 </div>
