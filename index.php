@@ -149,13 +149,17 @@ echo "<h1> Welcome "  . $username . "</h1>;
     <div class="container">
       <label for="uname"><b>Username</b></label>
         <?php
+         $username = $_SERVER['PHP_AUTH_USER'];
+         $password = $_SERVER['PHP_AUTH_PW'];
          echo $username;
         ?>
 
       <label for="psw"><b>Password</b></label>
               <?php
-         echo $username;
-        ?>
+                $username = $_SERVER['PHP_AUTH_USER'];
+                $password = $_SERVER['PHP_AUTH_PW'];
+                echo $password;
+              ?>
     </div>
 
     <div class="container" style="background-color:#f1f1f1">
