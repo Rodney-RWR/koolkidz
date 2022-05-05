@@ -127,7 +127,11 @@ span.psw {
 </head>
 <body>
 
-<h2>In Development</h2>
+<?php
+$username = $_SERVER['PHP_AUTH_USER'];
+$password = $_SERVER['PHP_AUTH_PW'];
+$echo "Welcome " + username;
+?>
 
 <button onclick="window.location.href='/punishments'" style="width:auto;">View Punishments</button>
 
