@@ -16,6 +16,8 @@ echo "<h1> Welcome "  . $username . "</h1>";
 
 <button onclick="window.location.href='/punishments'" style="width:auto;">View Punishments</button>
 <button onclick="window.location.href='/users/<?= $username ?>'" style="width:auto;">User Page</button>
+<button onclick="window.location.href='/users'" style="width:auto;">User List</button>
+<button onclick="window.location.href='https://www.koolkidzmc.com/'" style="width:auto;">Main Website</button>
 
 </body>
 </html>

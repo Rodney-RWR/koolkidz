@@ -21,7 +21,7 @@ class Settings {
         $this->driver = 'mysql';
 
         // Server name, shown on the main page and on the header
-        $this->name = 'KoolKidz | Staff';
+        $this->name = 'KoolKidz | Punishments';
 
         // Clicking on the header name will send you to this address.
         // $this->name_link = 'https://example.com';
@@ -60,9 +60,9 @@ class Settings {
         // The server console will be identified by any of these names.
         // It will be given a standard name and avatar image.
         $this->console_aliases = array(
-            "Console", "Console",
+            "AntiCheat", "AntiCheat",
         );
-        $this->console_name = "Console";
+        $this->console_name = "AntiCheat";
         $this->console_image = "inc/img/console.png";
 
         // Avatar images for all players will be fetched from this URL.

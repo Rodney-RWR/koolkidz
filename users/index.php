@@ -14,7 +14,7 @@ $password = $_SERVER['PHP_AUTH_PW'];
 echo "<h1> Welcome "  . $username . "</h1>";
 ?>
 
-<h2>Staff Member</h2>
+<h2>Staff Members</h2>
 <table>
 <tr>
     <th>Username</th>
