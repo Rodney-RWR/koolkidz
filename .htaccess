@@ -4,3 +4,5 @@ AuthUserFile /home/bas/app_e95c124a-a743-482d-8537-e2d2ee927048/.htpasswd
 require valid-user
 
 ErrorDocument 404 /errors/404/
+ErrorDocument 500 /errors/400/
+ErrorDocument 300 /errors/300/
