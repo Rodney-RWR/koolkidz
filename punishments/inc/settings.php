@@ -6,13 +6,13 @@ class Settings {
         $this->lang = 'en_US.utf8';
 
         // Database information
-        $this->host = 'bakpcrihltjmmrdnjueg-mysql.services.clever-cloud.com';
+        $this->host = '168.100.163.65';
         $this->port = 3306;
 
-        $this->database = 'bakpcrihltjmmrdnjueg';
+        $this->database = 's57_Litebans';
 
-        $this->username = 'uny1ahjy6jga4muq';
-        $this->password = '7LqURUDJntaFPuDHzujN';
+        $this->username = 'u57_QX8thPwwFm';
+        $this->password = 'Nxh5v@tVX=nMq@risST5!AQU';
 
         // If you set a table prefix in config.yml, set it here as well
         $this->table_prefix = "litebans_";
@@ -25,7 +25,7 @@ class Settings {
 
         // Clicking on the header name will send you to this address.
         // $this->name_link = 'https://example.com';
-        $this->name_link = '../index.php';
+        $this->name_link = '../';
 
         // Show server scope column?
         $this->show_server_scope = false;
