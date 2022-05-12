@@ -16,7 +16,8 @@
     }
   
     $sql = "CREATE TABLE stafflist (username varchar(100), role varchar(100);";
-    $sql = "INSERT INTO vendors(username,role) VALUES('Asphy','Owner');";
+    $sql = "INSERT INTO vendors(username,role) 
+      VALUES('Asphy','Owner');";
     $result = ($conn->query($sql));
     //declare array to store the data of database
     $row = []; 
