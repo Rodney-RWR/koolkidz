@@ -24,7 +24,7 @@
         $row = $result->fetch_all(MYSQLI_ASSOC);  
     }  
 
-$sql = "CREATE TABLE stafflist (username varchar(100), role varchar(100)";
+$sql = "CREATE TABLE stafflist (username varchar(100), role varchar(100))";
 $sql = "INSERT INTO stafflist (username, role) VALUES ('Asphy', 'Owner')";
 if (mysqli_query($conn, $sql)) {
       echo "New record created successfully";
